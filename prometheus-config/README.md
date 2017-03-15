@@ -9,7 +9,7 @@ infrastructure.
 
 
 
-![alt text](https://c1.staticflickr.com/1/737/33070753722_75ab25ed9f.jpg" Sample Dashboard")
+![Sample Dashboard](https://c1.staticflickr.com/1/737/33070753722_75ab25ed9f.jpg "Sample Dashboard")
 
 Prometheus Setup
 ----------------
