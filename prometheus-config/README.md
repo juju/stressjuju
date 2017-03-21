@@ -65,6 +65,8 @@ into a container on the host isn't always going to work on all providers.
     # This doesn't work for me but should so will look into it
     # juju run --service grafana "scripts/get_admin_password"
     juju config grafana admin_password=$PASSWORD
+    juju add-relation prometheus:grafana-source grafana:grafana-source
+
 
 
 Now log into your Grafana url
@@ -72,13 +74,6 @@ Now log into your Grafana url
 - http://$ipaddr:3000
 - username: admin
 - password: $whatever_you_set_in_above_config
-
-
-and setup the data source to your Prometheus instance.
-
-- data type prometheus
-- direct access
-- http://$ipaddr:9090
 
 And you can load the included default `controller-dashboard.json` to have a
 preconfigured graph.
