@@ -66,6 +66,7 @@ into a container on the host isn't always going to work on all providers.
     # juju run --service grafana "scripts/get_admin_password"
     juju config grafana admin_password=$PASSWORD
     juju add-relation prometheus:grafana-source grafana:grafana-source
+    juju expose grafana
 
 
 
