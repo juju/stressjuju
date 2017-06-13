@@ -86,3 +86,7 @@ Roadmap
 - automate this more with scripting using python-libjuju
 - add mongodb data for the juju data store to the graphs
 
+
+Other links
+-----------
+- https://awilkins.id.au/post/juju-2.1-prometheus/
